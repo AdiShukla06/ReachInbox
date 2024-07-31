@@ -1,4 +1,4 @@
-# This project is made using VITE + React.
+# This project is made using VITE + React. 
 # I have used TailwindCSS for styling.
 
 # Onebox Email Client
@@ -26,37 +26,33 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/onebox-email-client.git
+```
 
 
-Install Dependencies
-Navigate into the project directory and install the required dependencies:
+#Install Dependencies 
+#Navigate into the project directory and install the required dependencies:
 
 ```bash
 cd onebox-email-client
 npm install
+```
 
 
-Running the Application
-After installing the dependencies, you can run the application locally with:
+#Running the Application <br />
+#After installing the dependencies, you can run the application locally with:
 
 ```bash
 npm run dev
+```
 
-Project Structure
-src/: Contains all source code files.
-components/: Contains the main components (LoginPage, OneboxPage, CustomEditor).
-App.jsx: Defines the main routes for the application.
-main.jsx: The entry point for the React application.
-public/: Contains static assets like images and the index.html file.
-Implementation Details
-Google Sign-In: The Google sign-in process is simulated using window.open and setTimeout. This is a mock implementation for development purposes and does not include actual OAuth authentication.
-Reply Feature: Replies to emails are stored in the state and displayed below the original email as part of the conversation history.
-Delete Confirmation: Deletion of emails is confirmed via a modal that mimics a typical confirmation dialog.
-Additional Notes
-This project uses Vite as the build tool for a faster and more efficient development process.
-The draft-js library is used to provide rich text editing capabilities in the reply editor.
-Future Enhancements
-Implement actual OAuth authentication with Google for real sign-in functionality.
-Add support for composing new emails.
-Improve the user interface with more advanced styling and UX features.
+#Project Structure
+
+#src/: Contains all source code files.
+
+#components/: Contains the main components (LoginPage, OneboxPage, CustomEditor).
+#App.jsx: Defines the main routes for the application.
+##main.jsx: The entry point for the React application.
+#public/: Contains static assets like images and the index.html file.
+
+
 

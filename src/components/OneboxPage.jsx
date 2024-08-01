@@ -4,11 +4,11 @@ import CustomEditor from './CustomEditor';
 const mockEmails = [
   {
     id: 1,
-    sender: "jeanne@icloud.com",
-    recipient: "lennon.j@mail.com",
-    subject: "New Product Launch",
-    body: "Hi Lennon, I would like to introduce you to SaaSgrow...",
-    timestamp: "20 June 2022, 9:16 AM"
+    sender: "aditya@gmail.com",
+    recipient: "college.j@mail.com",
+    subject: "highest cgpa in college",
+    body: "Hi aditya, We would like you to present best...",
+    timestamp: "20 June 2024, 9:16 AM"
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const mockEmails = [
     recipient: "orlando@gmail.com",
     subject: "Interested in Campaign",
     body: "I've tried a lot and...",
-    timestamp: "7 March 2023, 10:00 AM"
+    timestamp: "7 March 2024, 10:00 AM"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const mockEmails = [
     recipient: "lennon.j@mail.com",
     subject: "Could you tell me more about it",
     body: "I'd like to know more about the campaign...",
-    timestamp: "7 March 2023, 10:05 AM"
+    timestamp: "7 March 2024, 10:05 AM"
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const mockEmails = [
     recipient: "orlando@gmail.com",
     subject: "Payment not going through",
     body: "I'm having issues with the payment process...",
-    timestamp: "7 March 2023, 11:00 AM"
+    timestamp: "7 March 2024, 11:00 AM"
   },
   {
     id: 5,
@@ -40,8 +40,26 @@ const mockEmails = [
     recipient: "jeanne@icloud.com",
     subject: "Re: New Product Launch",
     body: "Hi Jeanne, I'm interested in learning more...",
+    timestamp: "2 March 2023, 12:00 PM"
+  },
+  {
+    id: 6,
+    sender: "orlando@gmail.com",
+    recipient: "jeanne@icloud.com",
+    subject: "Re: New Product Launch",
+    body: "Hi Jeanne, I'm interested in learning more...",
+    timestamp: "1 March 2023, 12:00 PM"
+  },
+  {
+    id: 7,
+    sender: "orlando@gmail.com",
+    recipient: "jeanne@icloud.com",
+    subject: "Re: New Product Launch",
+    body: "Hi Jeanne, I'm interested in learning more...",
     timestamp: "7 March 2023, 12:00 PM"
-  }
+  },
+
+
   // More mock emails as needed...
 ];
 
@@ -101,7 +119,7 @@ const OneboxPage = () => {
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <div className="flex justify-between items-center p-4 border-b border-gray-700">
-        <h1 className="text-2xl font-bold">Onebox</h1>
+        <h1 className="text-2xl font-bold">MailBox</h1>
         <div>
           <button onClick={toggleDarkMode} className="p-2 rounded-full bg-gray-700">
             {darkMode ? '🌙' : '☀️'}
